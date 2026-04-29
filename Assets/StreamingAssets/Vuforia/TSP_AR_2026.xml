@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <QCARConfig>
   <Tracking>
+    <ImageTarget name="16aadaf02bb00635ac1b26daa880a71d" size="1.000000 1.458503" />
     <ImageTarget name="BlueEyes" size="1.000000 1.460084" />
   </Tracking>
 </QCARConfig>
