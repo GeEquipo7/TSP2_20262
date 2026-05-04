@@ -1198,7 +1198,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1205827551}
-  - component: {fileID: 1205827550}
+  - component: {fileID: 1205827552}
   m_Layer: 0
   m_Name: Controller
   m_TagString: Untagged
@@ -1206,23 +1206,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1205827550
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1205827549}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4a352f750c61f1045bac67e725a354f3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  inputField: {fileID: 0}
-  chatText: {fileID: 0}
-  enviarButton: {fileID: 0}
-  unityChanAnimator: {fileID: 0}
-  apiKey: 
 --- !u!4 &1205827551
 Transform:
   m_ObjectHideFlags: 0
@@ -1238,6 +1221,23 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1205827552
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1205827549}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4a352f750c61f1045bac67e725a354f3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  inputField: {fileID: 1208803953}
+  chatText: {fileID: 1588693014}
+  enviarButton: {fileID: 467400311}
+  unityChanAnimator: {fileID: 1925156587}
+  apiKey: 
 --- !u!1 &1208803951
 GameObject:
   m_ObjectHideFlags: 0
@@ -1928,6 +1928,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 5501801747115825992, guid: d9e337dc6acbbda468331feab73252fa, type: 3}
   m_PrefabInstance: {fileID: 1925156585}
   m_PrefabAsset: {fileID: 0}
+--- !u!95 &1925156587 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 4127175938517750566, guid: d9e337dc6acbbda468331feab73252fa, type: 3}
+  m_PrefabInstance: {fileID: 1925156585}
+  m_PrefabAsset: {fileID: 0}
 --- !u!21 &2063947684
 Material:
   serializedVersion: 8
@@ -1996,7 +2001,7 @@ GameObject:
   - component: {fileID: 2102627393}
   - component: {fileID: 2102627392}
   - component: {fileID: 2102627391}
-  - component: {fileID: 2102627390}
+  - component: {fileID: 2102627394}
   m_Layer: 0
   m_Name: ImageTarget
   m_TagString: Untagged
@@ -2004,25 +2009,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &2102627390
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2102627389}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 2102627392}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: 16aadaf02bb00635ac1b26daa880a71d
-  mDatasetName: Vuforia/TSP_AR_2026.xml
-  mCastedBehaviour: {fileID: 2102627392}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
 --- !u!114 &2102627391
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2093,7 +2079,7 @@ MonoBehaviour:
   mMotionHint: 1
   mTrackingOptimization: 0
   mTrackingOptimizationNeedsUpgrade: 0
-  mPreview: {fileID: 2102627390}
+  mPreview: {fileID: 2102627394}
 --- !u!4 &2102627393
 Transform:
   m_ObjectHideFlags: 0
@@ -2112,6 +2098,25 @@ Transform:
   - {fileID: 1588693013}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2102627394
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2102627389}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 2102627392}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: 16aadaf02bb00635ac1b26daa880a71d
+  mDatasetName: Vuforia/TSP_AR_2026.xml
+  mCastedBehaviour: {fileID: 2102627392}
+  mMeshFilter: {fileID: 0}
+  mMeshRenderer: {fileID: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
